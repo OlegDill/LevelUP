@@ -1,0 +1,45 @@
+.composition__ellipse {
+  position: absolute;
+  width: 387px;
+  height: 600px;
+  top: -200px;
+  left: 20px;
+  transform: rotate(-30deg);
+}
+
+@media (max-width: 1280px) {
+  .composition__ellipse {
+    width: 340px;
+    height: 527px;
+    top: -170px;
+    left: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .composition__ellipse {
+    width: 260px;
+    height: 403px;
+    top: -130px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .composition__ellipse {
+    width: 160px;
+    height: 248px;
+    top: -70px;
+    left: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .composition__ellipse {
+    width: 90px;
+    height: 140px;
+    top: -50px;
+    left: 15px;
+    transform: rotate(-40deg);
+  }
+}

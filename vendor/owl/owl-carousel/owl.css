@@ -1,0 +1,106 @@
+.owl-buttons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  justify-content: center;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  background: #09A66D;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 0;
+  opacity: 1;
+  font-size: 0;
+  background-image: url('../../../images/vector-right.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+}
+
+.owl-next:hover {
+  opacity: .5;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  background: #09A66D;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 0;
+  opacity: 1;
+  font-size: 0;
+  background-image: url('../../../images/vector-right.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+  background-size: 11px;
+}
+
+.owl-pagination {
+  display: none;
+}
+
+.owl-controls {
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .owl-theme .owl-controls .owl-buttons .owl-next, .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 50px;
+    height: 50px;
+    background-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .owl-theme .owl-controls .owl-buttons .owl-next, .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 45px;
+    height: 45px;
+    background-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .owl-theme .owl-controls .owl-buttons .owl-next, .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 25px;
+    height: 25px;
+    background-size: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .owl-theme .owl-controls .owl-buttons .owl-next, .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 15px;
+    height: 15px;
+    background-size: 3px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .owl-buttons {
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .owl-buttons {
+    bottom: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .owl-buttons {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .owl-buttons {
+    display: flex;
+    flex-direction: row;
+    bottom: 55px;
+  }
+}

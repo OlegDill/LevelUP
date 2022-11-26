@@ -1,0 +1,48 @@
+.header__menu-link {
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 40px 0 0;
+}
+
+.header__menu-link:last-child {
+  margin-right: 0;
+}
+
+.header__menu-link:hover {
+  opacity: .6;
+}
+
+@media (max-width: 1280px) {
+  .header__menu-link {
+    margin-right: 30px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__menu-link {
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__menu-link {
+    margin-right: 5px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__menu-link {
+    margin-right: 3px;
+    /* font-size: 8px; */
+    line-height: 12px;
+  }
+}

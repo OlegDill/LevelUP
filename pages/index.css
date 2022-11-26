@@ -1,0 +1,86 @@
+/* vendor */
+@import url(../vendor/normalize.css);
+@import url(../vendor/owl/owl-carousel/owl.carousel.css);
+@import url(../vendor/owl/owl-carousel/owl.theme.css);
+@import url(../vendor/owl/owl-carousel/owl.css);
+@import url(../vendor/fonts/fonts.css);
+/* body */
+@import url(../blocks/body/body.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__button-box/header__button-box.css);
+@import url(../blocks/header/__button-buy/header__button-buy.css);
+@import url(../blocks/header/__button-registration/header__button-registration.css);
+@import url(../blocks/header/__button-search/header__button-search.css);
+@import url(../blocks/header/__menu-box/header__menu-box.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+/* promo */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__button-order/promo__button-order.css);
+@import url(../blocks/promo/__characterisics-list/promo__characteristics-list.css);
+@import url(../blocks/promo/__characteristics-item/promo__characteristics-item.css);
+@import url(../blocks/promo/__product-box/promo__product-box.css);
+@import url(../blocks/promo/__product-image/promo__product-image.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__background-image/promo__background-image.css);
+@import url(../blocks/promo/__image-star/promo__image-star.css);
+/* composition */
+@import url(../blocks/composition/composition.css);
+@import url(../blocks/composition/__image-center/composition__image-center.css);
+@import url(../blocks/composition/__image/composition__image.css);
+@import url(../blocks/composition/__items/composition__items.css);
+@import url(../blocks/composition/__left-box/composition__left-box.css);
+@import url(../blocks/composition/__right-box/composition__right-box.css);
+@import url(../blocks/composition/__subtitle/composition__subtitle.css);
+@import url(../blocks/composition/__image-box/composition__image-box.css);
+@import url(../blocks/composition/__product-box/composition__product-box.css);
+@import url(../blocks/composition/__background/composition__background.css);
+@import url(../blocks/composition/__ellipse/composition__ellipse.css);
+@import url(../blocks/composition/__check/composition__check.css);
+@import url(../blocks/composition/__button-order/composition__button-order.css);
+/* reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__box/reviews__box.css);
+@import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__container/reviews__container.css);
+@import url(../blocks/reviews/__image-box/reviews__image-box.css);
+@import url(../blocks/reviews/__image-people/reviews__image-people.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__star-box/reviews__star-box.css);
+@import url(../blocks/reviews/__star/reviews__star.css);
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__characteristics-item/about__characteristics-item.css);
+@import url(../blocks/about/__characteristics/about__characteristics.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__plants-top/about__plants-top.css);
+@import url(../blocks/about/__button-order/about__button-order.css);
+@import url(../blocks/about/__image-check/about__image-check.css);
+/* order */
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__button-order/order__button-order.css);
+@import url(../blocks/order/__caption-box/order__caption-box.css);
+@import url(../blocks/order/__container/order__container.css);
+@import url(../blocks/order/__image/order__image.css);
+@import url(../blocks/order/__input-box/order__input-box.css);
+@import url(../blocks/order/__input-name/order__input-name.css);
+@import url(../blocks/order/__input-number/order__input-number.css);
+@import url(../blocks/order/__new-price/order__new-price.css);
+@import url(../blocks/order/__old-price/order__old-price.css);
+@import url(../blocks/order/__sale-box/order__sale-box.css);
+@import url(../blocks/order/__subtitle/order__subtitle.css);
+@import url(../blocks/order/__text-box/order__text-box.css);
+@import url(../blocks/order/__timer/order__timer.css);
+@import url(../blocks/order/__title/order__title.css);
+@import url(../blocks/order/__text-name/order__text-name.css);
+@import url(../blocks/order/__text-number/order__text-number.css);
+@import url(../blocks/order/__text-sale/order__text-sale.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__text/footer__text.css);

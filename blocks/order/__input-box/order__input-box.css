@@ -1,0 +1,45 @@
+.order__input-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.order__input-box input+.order__span-name {
+  position: absolute;
+  padding: 10px;
+  background: white;
+  right: 0;
+  display: none;
+  top: 55px;
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: red;
+  background: none;
+}
+
+.order__input-box input:focus+.order__span-name {
+  display: block;
+}
+
+.order__input-box input+.order__span-number {
+  position: absolute;
+  padding: 10px;
+  background: white;
+  right: 0;
+  display: none;
+  top: 130px;
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: red;
+  background: none;
+}
+
+.order__input-box input:focus+.order__span-number {
+  display: block;
+}

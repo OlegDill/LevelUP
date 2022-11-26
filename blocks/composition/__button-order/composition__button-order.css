@@ -1,0 +1,65 @@
+.composition__button-order {
+  width: 200px;
+  height: 60px;
+  background: #09A66D;
+  border-radius: 8px;
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  margin: 80px 0 0 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.composition__button-order:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media (max-width: 1280px) {
+  .composition__button-order {
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .composition__button-order {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .composition__button-order {
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .composition__button-order {
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 15px;
+  }
+}

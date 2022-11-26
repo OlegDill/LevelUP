@@ -1,0 +1,44 @@
+.composition__background {
+  position: absolute;
+  top: -60px;
+  left: -110px;
+  z-index: 0;
+  width: 420px;
+  height: 420px;
+}
+
+@media (max-width: 1280px) {
+  .composition__background {
+    width: 380px;
+    height: 380px;
+    top: -50px;
+    left: -100px
+  }
+}
+
+@media (max-width: 1024px) {
+  .composition__background {
+    width: 280px;
+    height: 280px;
+    top: -35px;
+    left: -70px
+  }
+}
+
+@media (max-width: 768px) {
+  .composition__background {
+    width: 180px;
+    height: 180px;
+    top: -15px;
+    left: -40px
+  }
+}
+
+@media (max-width: 500px) {
+  .composition__background {
+    width: 100px;
+    height: 100px;
+    top: -13px;
+    left: -10px;
+  }
+}

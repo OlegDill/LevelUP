@@ -1,0 +1,37 @@
+.order__text-name {
+  margin: 0;
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #555555;
+}
+
+@media (max-width: 1280px) {
+  .order__text-name {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__text-name {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order__text-name {
+    font-size: 6px;
+    line-height: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__text-name {
+    font-size: 4px;
+    line-height: 6px;
+  }
+}

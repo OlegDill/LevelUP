@@ -1,0 +1,146 @@
+.order__input-number {
+  width: 240px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  color: #555555;
+  margin: 0 0 15px 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+@media (max-width: 1280px) {
+  .order__input-number {
+    width: 220px;
+    height: 35px;
+    font-size: 22px;
+    line-height: 18px;
+    border-radius: 7px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+
+  ::-moz-placeholder {
+    font-size: 14px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  :-moz-placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__input-number {
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 16px;
+    border-radius: 6px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+
+  ::-moz-placeholder {
+    font-size: 12px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  :-moz-placeholder {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order__input-number {
+    width: 140px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 14px;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 9px;
+  }
+
+  ::-moz-placeholder {
+    font-size: 9px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 9px;
+  }
+
+  :-moz-placeholder {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__input-number {
+    width: 80px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 5px;
+  }
+
+  ::-moz-placeholder {
+    font-size: 5px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 5px;
+  }
+
+  :-moz-placeholder {
+    font-size: 5px;
+  }
+}

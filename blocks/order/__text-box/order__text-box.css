@@ -1,0 +1,27 @@
+.order__text-box {
+  margin: 0 100px 0 0;
+}
+
+@media (max-width: 1280px) {
+  .order__text-box {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__text-box {
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order__text-box {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__text-box {
+    margin-right: 40px;
+  }
+}

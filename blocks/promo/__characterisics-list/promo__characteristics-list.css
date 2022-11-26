@@ -1,0 +1,30 @@
+.promo__characteristics-list {
+  margin: 0 0 0 100px;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 1280px) {
+  .promo__characteristics-list {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .promo__characteristics-list {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo__characteristics-list {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo__characteristics-list {
+    margin-left: 20px;
+  }
+}

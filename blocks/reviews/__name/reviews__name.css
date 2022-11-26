@@ -1,0 +1,39 @@
+.reviews__name {
+  font-family: 'Comfortaa', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 1280px) {
+  .reviews__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .reviews__name {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews__name {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews__name {
+    font-size: 14px;
+    line-height: 6px;
+    margin-bottom: 5px;
+  }
+}

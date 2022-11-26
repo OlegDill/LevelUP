@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 20px 100px;
+  background: linear-gradient(180deg, white, #F3FBF8);
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

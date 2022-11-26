@@ -1,0 +1,15 @@
+.header__menu-box {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header__menu-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__menu-box {
+    margin-bottom: 10px;
+  }
+}

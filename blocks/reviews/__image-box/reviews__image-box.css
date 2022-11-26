@@ -1,0 +1,37 @@
+.reviews__image-box {
+  border-radius: 50%;
+  background: #F3FBF8;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 1280px) {
+  .reviews__image-box {
+    width: 350px;
+    height: 350px;  
+  }
+}
+
+@media (max-width: 1024px) {
+  .reviews__image-box {
+    width: 250px;
+    height: 250px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews__image-box {
+    width: 150px;
+    height: 150px;  
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews__image-box {
+    width: 50px;
+    height: 50px;  
+  }
+}

@@ -1,0 +1,63 @@
+.order__old-price {
+  font-family: 'Roboto Slab', 'Arial', 'Tahoma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: rgb(85, 85, 85);
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.order__old-price:before {
+  border-bottom: 3px solid red;
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 50%;
+  transform: rotate(-7deg);
+}
+
+@media (max-width: 1280px) {
+  .order__old-price {
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+
+  .order__old-price:before {
+    width: 37%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__old-price {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .order__old-price:before {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .order__old-price {
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .order__old-price:before {
+    width: 25%;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__old-price {
+    font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 15px;
+  }
+}
