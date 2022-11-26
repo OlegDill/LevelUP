@@ -43,3 +43,63 @@
 .order__input-box input:focus+.order__span-number {
   display: block;
 }
+
+@media (max-width: 1280px) {
+  .order__input-box input+.order__span-name {
+    top: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__input-box input+.order__span-name {
+    top: 45px;
+    font-size: 6px;
+    line-height: 8px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .order__input-box input+.order__span-name {
+    top: 30px;
+    font-size: 5px;
+    line-height: 7px;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__input-box input+.order__span-name {
+    top: 20px;
+    font-size: 3px;
+    line-height: 5px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .order__input-box input+.order__span-number {
+    top: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .order__input-box input+.order__span-number {
+    top: 105px;
+    font-size: 6px;
+    line-height: 8px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .order__input-box input+.order__span-number {
+    top: 80px;
+    font-size: 5px;
+    line-height: 7px;
+  }
+}
+
+@media (max-width: 320px) {
+  .order__input-box input+.order__span-number {
+    top: 50px;
+    font-size: 3px;
+    line-height: 5px;
+  }
+}
