@@ -7,13 +7,13 @@
 /* body */
 @import url(../blocks/body/body.css);
 /* header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__button-box/header__button-box.css);
-@import url(../blocks/header/__button-buy/header__button-buy.css);
-@import url(../blocks/header/__button-registration/header__button-registration.css);
-@import url(../blocks/header/__button-search/header__button-search.css);
-@import url(../blocks/header/__menu-box/header__menu-box.css);
-@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(./../blocks/header/header.css);
+@import url(./../blocks/header/__button-box/header__button-box.css);
+@import url(./../blocks/header/__button-buy/header__button-buy.css);
+@import url(./../blocks/header/__button-registration/header__button-registration.css);
+@import url(./../blocks/header/__button-search/header__button-search.css);
+@import url(./../blocks/header/__menu-box/header__menu-box.css);
+@import url(./../blocks/header/__menu-link/header__menu-link.css);
 /* promo */
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__button-order/promo__button-order.css);
