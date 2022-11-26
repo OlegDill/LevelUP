@@ -10,6 +10,6 @@
 
 Структура проекта выполнена по правилам **Nested БЭМ**.
 
-[Страница на GH Pages](http://example.com/ "Ссылка")
+[Страница на GH Pages](https://olegdill.github.io/LevelUP/ "Ссылка")
 ---
  © 2022 Oleg Dill
